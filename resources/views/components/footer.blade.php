@@ -67,7 +67,12 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
 
-
+<script>
+    function toggleMenu() {
+        var headerElement = document.getElementById('header-elements');
+        headerElement.classList.toggle('show-menu');
+    }
+</script>
 </body>
 
 </html>

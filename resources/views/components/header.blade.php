@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css" />
 
 
 
@@ -33,7 +34,8 @@
                 <a href="/">Home</a>
                 <a target="_self" href="/about-us">About Us</a>
                 <div class="dropdown">
-                    <a href="/ourservices" class="dropbtn">Our Services <i class="fa-solid fa-caret-up fa-rotate-180" style="color: #000000;"></i></a>
+                    <a href="/services" class="dropbtn">Our Services <i class="fa-solid fa-caret-up fa-rotate-180"
+                            style="color: #000000;"></i></a>
                     <div class="dropdown-content">
                         <a href="#">Epass</a>
                         <a href="#">Satyam Enterprises</a>
@@ -42,7 +44,7 @@
                         <a href="#">Excellent Sparta Services pvt ltd</a>
                     </div>
                 </div>
-                <a href="#">Past Recruitment And Career</a>
+                <a href="/recruitment&career">Past Recruitment And Career</a>
                 <a href="#">Clients</a>
                 <a href="#">Branches</a>
                 <a href="#">Contact Us</a>
@@ -54,5 +56,6 @@
                     <a href="#"><i class="fa-brands fa-youtube" style="color: #000000;  height: 21px;"></i></a>
                 </div>
             </div>
+            
         </div>
     </header>

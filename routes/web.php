@@ -17,10 +17,14 @@ Route::get('/', function () {
     return view('Frontend.index');
 });
 
-Route::get('about-us', function () {
+Route::get('/about-us', function () {
     return view('Frontend.about-us');
 });
 
-Route::get('ourservice', function() {
-    return view('Frontend.ourservice');
+Route::get('/services', function() {
+    return view('Frontend.services');
+});
+
+Route::get('/recruitment&career', function() {
+    return view('Frontend.recruitment&career');
 });

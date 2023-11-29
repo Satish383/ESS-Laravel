@@ -5,7 +5,7 @@
 }
 
 .header-content {
-  background: white;
+  background: whitesmoke;
   padding: 25px;
 }
 
@@ -48,6 +48,41 @@ header a {
   color: blue;
 }
 
+/* Style for the fixed header */
+.header-content {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: whitesmoke;
+  /* Change color as needed */
+  z-index: 1000;
+  /* Ensure it stays above other content */
+  /* Add more styles as needed */
+}
+
+
+
+/* Responsive styles for header elements */
+/* Add media queries as needed for different screen sizes */
+@media (max-width: 768px) {
+  .container-fluid {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-element {
+    width: 100%;
+    margin-top: 10px;
+    /* Adjust spacing */
+  }
+
+  .header-element a {
+    display: block;
+    margin-bottom: 10px;
+    /* Adjust spacing */
+  }
+}
+
 
 
 .dropbtn {
@@ -56,7 +91,7 @@ header a {
   font-size: 16px;
   border: none;
   cursor: pointer;
-  background-color: white;
+  background-color: whitesmoke;
 }
 
 .dropdown {
@@ -99,7 +134,7 @@ header a {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: white;
+  /* background-color: white; */
   color: blue;
 }
 
@@ -139,7 +174,7 @@ header a {
 }
 
 .footer-element a:hover {
-  color: blue;
+  color: #ffcd00;
 }
 
 #footer-item {
@@ -724,7 +759,7 @@ p {
   padding: 170px;
   background-size: cover;
   background-position: center center;
-  padding: 120px 0px;
+  /* padding: 120px 0px; */
   background-repeat: no-repeat;
 }
 
@@ -884,7 +919,7 @@ p {
 }
 
 .values_elements #values_title {
-  color: #3D3D68;
+  color: #68653d;
   font-family: "Source Sans Pro", Sans-serif;
   font-size: 35px;
   font-weight: 800;
@@ -897,7 +932,7 @@ p {
   font-family: "Source Sans Pro", Sans-serif;
   font-size: 23px;
   font-weight: 800;
-  color: #3D3D68;
+  color: #68653d;
   line-height: 1.25;
   letter-spacing: -.02em;
   text-transform: uppercase;
@@ -906,7 +941,7 @@ p {
 }
 
 .values_para p {
-  color: #212529;
+  color: #68653d;
   font-family: "Roboto", Sans-serif;
   font-size: 17px;
   font-weight: 500;
@@ -925,3 +960,155 @@ p {
 #values_box {
   margin-bottom: 30px;
 }
+
+#value_heading_2 {
+  margin-left: 34%;
+}
+
+#value_heading_3 {
+  margin-left: 32%;
+}
+
+#value_heading_4 {
+  margin-left: 30%;
+}
+
+#service_content {
+  font-size: 36px;
+}
+
+#service_para {
+  padding: 20px 60px 20px 60px;
+}
+
+#service_text p {
+  margin-top: 0%;
+}
+
+#servie_heading_1 {
+  margin-left: 39%;
+}
+
+#service_heading_2 {
+  margin-left: 24%;
+}
+
+#service_heading_3 {
+  margin-left: 11%;
+}
+
+#service_heading_4 {
+  margin-left: 18%;
+}
+
+#career_container {
+  padding: 240px 0px;
+}
+
+#career_card {
+  margin-top: -13%;
+}
+
+.career_box {
+  background: white;
+}
+
+.career_box p {
+  color: #8c8c8c;
+  font-size: 16px !important;
+}
+
+.career_box {
+  height: fit-content !important;
+  border-radius: 10px;
+}
+
+#career_email {
+  color: black;
+}
+
+#career_email:hover {
+  color: #9e9e08;
+}
+
+.career_box img:hover {
+  transform: none !important;
+}
+
+#career_form form {
+  text-align: center;
+}
+
+#career_form form input {
+  padding: 8px 8px;
+  width: 60%;
+  border-radius: 6px;
+  border-color: black;
+}
+
+#career_form form select {
+  padding: 8px 8px;
+  width: 60%;
+  border-radius: 6px;
+  border-color: black;
+  border: 2px solid black;
+}
+
+#file_container {
+  width: 18% !important;
+  float: left;
+  margin-left: 228px;
+  padding: 0px 0px !important;
+  border-radius: 0px !important;
+}
+
+#career_form form textarea {
+  padding: 8px 8px;
+  width: 60%;
+  border-radius: 6px;
+  border-color: black;
+  border: 2px solid black;
+}
+
+#career_form form button {
+  padding: 8px 8px;
+  width: 60%;
+  border-radius: 6px;
+  border-color: rgb(255, 255, 255);
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  background: linear-gradient(#e41fcd, #444183);
+}
+
+#career_form form button:hover {
+  background: linear-gradient(-20deg, #e4d41f, #836f41);
+}
+
+#career_form_text p {
+  color: #212529;
+  font-family: "Roboto", Sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.8em;
+  letter-spacing: 1.2px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+#career_head h1 {
+  color: #68653d;
+  font-family: "Source Sans Pro", Sans-serif;
+  font-size: 35px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+#career_elements {
+  background: white;
+}
+
+
+
+/* ---------------Responsive Code---------------------- */
+
