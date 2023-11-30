@@ -28,3 +28,15 @@ Route::get('/services', function() {
 Route::get('/recruitment&career', function() {
     return view('Frontend.recruitment&career');
 });
+
+Route::get('/contact_us', function() {
+    return view('Frontend.contact_us');
+});
+
+Route::get('/clients', function() {
+    return view('Frontend.clients');
+});
+
+Route::get('/branches', function() {
+    return view('Frontend.branches');
+});

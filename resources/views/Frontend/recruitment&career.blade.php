@@ -69,7 +69,7 @@
 <div id="career_elements" class="about_container">
     <div id="about_elements" class="container mt-5">
         <div id="career_head" class="about_heading">
-            <h1>JOIN #ESS</h1>
+            <h1>COME GROW WITH US</h1>
         </div>
         <div id="career_form_text" class="about_text">
             <p>Send your resume to career@tenonworld.com or upload your resume using the form below.</p>

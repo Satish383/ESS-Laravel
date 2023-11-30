@@ -45,9 +45,9 @@
                     </div>
                 </div>
                 <a href="/recruitment&career">Past Recruitment And Career</a>
-                <a href="#">Clients</a>
-                <a href="#">Branches</a>
-                <a href="#">Contact Us</a>
+                <a href="/clients">Clients</a>
+                <a href="/branches">Branches</a>
+                <a href="/contact_us">Contact Us</a>
 
                 <div id="icons" class="header-icon">
                     <a href="#"><i class="fa-brands fa-facebook" style="color: #000000; height: 21px;"></i></a>
