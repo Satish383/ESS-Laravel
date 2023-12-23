@@ -89,7 +89,12 @@
             </div>
             <div class="col-lg-6">
                 <div class="branches_edge_para">
-                    <h2>Transforming Workplaces into Growth Hubs</h2>
+                    <h2>GIVING YOU A COMPETITIVE EDGE</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit itaque tempore fugiat
+                        cupiditate rem harum deleniti aliquam laboriosam deserunt quia quas explicabo molestiae odit,
+                        expedita recusandae a alias sint reiciendis veritatis delectus maiores voluptates quasi.
+                        Quibusdam minus voluptate explicabo deleniti earum quos ipsam aliquid corporis debitis ducimus.
+                        Repellat, similique optio!</p>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit itaque tempore fugiat
                         cupiditate rem harum deleniti aliquam laboriosam deserunt quia quas explicabo molestiae odit,
                         expedita recusandae a alias sint reiciendis veritatis delectus maiores voluptates quasi.
@@ -103,7 +108,7 @@
 
 <div class="branches_card mt-5">
     <div class="container">
-        <h2>THE TENON PROMISE</h2>
+        <h2>THE ESS PROMISE</h2>
         <div class="branches_card_container">
             <div class="row">
                 <div class="col-lg-6">
@@ -160,6 +165,128 @@
                                 explicabo! Consectetur quis veritatis corporis iusto.</p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="clients_services mt-3" style="background: white">
+    <h1>AWARD-WINNING INDIAN MULTINATIONAL COMPANY</h1>
+    <div class="branches-box">
+        <div class="service">
+            <div class="flip-box">
+                <div class="flip-box-inner">
+                    <div id="flip_front" class="flip-box-front">
+                        <img src="https://i.ibb.co/KXXzgvm/greeting-card.png">
+                        <h2>Soft Facilities Services</h2>
+                    </div>
+                    <div class="flip-box-back">
+                        <p>We provide unique gifting ideas & products that will have a long-lasting impact on customers.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="service">
+            <div class="flip-box">
+                <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                        <img src="https://i.ibb.co/KXXzgvm/greeting-card.png">
+                        <h2>Facilities Support Services</h2>
+                    </div>
+                    <div id="flip_back" class="flip-box-back">
+                        <p class="text-white">We provide unique gifting ideas & products that will have a long-lasting
+                            impact on customers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="service">
+            <div class="flip-box">
+                <div class="flip-box-inner">
+                    <div id="flip_front" class="flip-box-front">
+                        <img src="https://i.ibb.co/KXXzgvm/greeting-card.png">
+                        <h2>Sanitisation Services</h2>
+                    </div>
+                    <div class="flip-box-back">
+                        <p>We provide unique gifting ideas & products that will have a long-lasting impact on customers.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="service">
+            <div class="flip-box">
+                <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                        <img src="https://i.ibb.co/KXXzgvm/greeting-card.png">
+                        <h2>engineering services</h2>
+                    </div>
+                    <div id="flip_back" class="flip-box-back">
+                        <p class="text-white">We provide unique gifting ideas & products that will have a long-lasting
+                            impact on customers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="service">
+            <div class="flip-box">
+                <div class="flip-box-inner">
+                    <div id="flip_front" class="flip-box-front">
+                        <img src="https://i.ibb.co/KXXzgvm/greeting-card.png">
+                        <h2>Soft Facilities Services</h2>
+                    </div>
+                    <div class="flip-box-back">
+                        <p>We provide unique gifting ideas & products that will have a long-lasting impact on customers.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="service">
+            <div class="flip-box">
+                <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                        <img src="https://i.ibb.co/KXXzgvm/greeting-card.png">
+                        <h2>engineering services</h2>
+                    </div>
+                    <div id="flip_back" class="flip-box-back">
+                        <p class="text-white">We provide unique gifting ideas & products that will have a long-lasting
+                            impact on customers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <div class="clients_contaier">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="branches_edge_para">
+                    <h2>BECOME A CLIENT</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit itaque tempore fugiat
+                        cupiditate rem harum deleniti aliquam laboriosam deserunt quia quas explicabo molestiae odit,
+                        expedita recusandae a alias sint reiciendis veritatis delectus maiores voluptates quasi.
+                        Quibusdam minus voluptate explicabo deleniti earum quos ipsam aliquid corporis debitis ducimus.
+                        Repellat, similique optio!</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit itaque tempore fugiat
+                        cupiditate rem harum deleniti aliquam laboriosam deserunt quia quas explicabo molestiae odit,
+                        expedita recusandae a alias sint reiciendis veritatis delectus maiores voluptates quasi.
+                        Quibusdam minus voluptate explicabo deleniti earum quos ipsam aliquid corporis debitis ducimus.
+                        Repellat, similique optio!</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="clients_img">
+                    <img src="{{ asset('assets/image/Security-2.jpg') }}" alt="">
                 </div>
             </div>
         </div>

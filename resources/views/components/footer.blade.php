@@ -20,21 +20,20 @@
         <div class="footer-element">
             <small>
                 <h6>Our Branches</h6><br>
-                <a href="">Jharkhand</a><br>
-                <a href="">Bihar</a><br>
-                <a href="">Assam & North East States</a><br>
-                <a href="">Andhra Pradesh</a><br>
-                <a href="">Gujarat</a>
+                <a href="#">Jharkhand</a><br>
+                <a href="#">Bihar</a><br>
+                <a href="#">Assam & North East States</a><br>
+                <a href="#">Andhra Pradesh</a><br>
+                <a href="#">Gujarat</a>
             </small>
         </div>
         <div class="footer-element">
             <small>
-                <h6>Our Clients</h6><br>
-                <a href="">Big Fix Group</a><br>
-                <a href="">Aircel</a><br>
-                <a href="">Wipro</a><br>
-                <a href="">Reliance Industries & Logistics</a><br>
-                <a href="">Reliance Mutual Funds</a>
+                <h6>Important links</h6><br>
+                <a href="#">Disclaimer</a><br>
+                <a href="#">Privecy Policy</a><br>
+                <a href="#">Terms of use</a><br>
+                <a href="#">Labour Compliance</a><br>
             </small>
         </div>
         <div class="footer-element">
@@ -68,10 +67,15 @@
 
 
 <script>
-    function toggleMenu() {
-        var headerElement = document.getElementById('header-elements');
-        headerElement.classList.toggle('show-menu');
-    }
+    document.addEventListener("DOMContentLoaded", function() {
+        const toggleButton = document.querySelector('.menu-toggle');
+        const headerElement = document.querySelector('.header-element');
+
+        // Toggle the active class on clicking the toggle button
+        toggleButton.addEventListener('click', function() {
+            headerElement.classList.toggle('active');
+        });
+    });
 </script>
 </body>
 

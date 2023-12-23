@@ -30,6 +30,11 @@
                     <img id="logo-img" src="{{ asset('assets/image/ess-logo.png') }}" alt="">
                 </a>
             </div>
+
+            <button class="menu-toggle">
+                <i class="fa-solid fa-bars" style="color: #000000;"></i>
+            </button>
+
             <div class="header-element">
                 <a href="/">Home</a>
                 <a target="_self" href="/about-us">About Us</a>
@@ -50,12 +55,11 @@
                 <a href="/contact_us">Contact Us</a>
 
                 <div id="icons" class="header-icon">
-                    <a href="#"><i class="fa-brands fa-facebook" style="color: #000000; height: 21px;"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter" style="color: #000000;  height: 21px;"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin" style="color: #000000; height: 21px;"></i></a>
-                    <a href="#"><i class="fa-brands fa-youtube" style="color: #000000;  height: 21px;"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook" style="color: #92741a; height: 21px;"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin" style="color: #92741a; height: 21px;"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube" style="color: #92741a;  height: 21px;"></i></a>
                 </div>
             </div>
-            
+
         </div>
     </header>

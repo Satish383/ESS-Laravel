@@ -419,7 +419,7 @@ header a {
 
 .edge-container {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
   gap: 2%;
   padding-top: 3%;
   max-width: 88%;
@@ -553,7 +553,7 @@ header a {
 }
 
 .bg-client {
-  background: linear-gradient(rgb(52 51 51 / 95%), rgb(36 36 36 / 85%)), url(../image/Client.jpg) center center no-repeat;
+  background: linear-gradient(rgb(52 51 51 / 71%), rgb(52 51 51 / 71%)), url(../image/Client.jpg) center center no-repeat;
   background-size: cover;
 }
 
@@ -567,7 +567,7 @@ p {
 
 /* Style for the card container */
 .card {
-  width: 300px;
+  width: 230px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   padding: 20px;
   text-align: center;
@@ -576,15 +576,15 @@ p {
 
 /* Style for the icon */
 .icon {
-  font-size: 40px;
-  color: #333;
-  border: 1px solid black;
-  width: 35%;
-  margin-left: 32%;
-  border-radius: 50%;
-  padding: 10px 14px;
-  background: #01015c;
-  color: white;
+  font-size: 30px;
+    color: #333;
+    border: 1px solid #92741a;
+    width: 50%;
+    margin-left: 24%;
+    border-radius: 50%;
+    padding: 20px 20px;
+    background: #92741a;
+    color: white;
 }
 
 /* Style for the card title */
@@ -1287,7 +1287,7 @@ p {
   background-color: transparent;
   width: 350px;
   height: 280px;
-  border: 1px solid #f1f1f1;
+  /* border: 1px solid #ffffff; */
   border-radius: 10px;
   perspective: 1000px;
 }
@@ -1346,7 +1346,7 @@ p {
 }
 
 #flip_front {
-  background-color: #232235;
+  background-color: #68653d;
   color: rgb(219, 218, 218);
 }
 
@@ -1361,7 +1361,7 @@ p {
 
 #flip_back {
   color: #ffffff;
-  background-color: #232235;
+  background-color: #68653d;
 }
 
 
@@ -1387,7 +1387,7 @@ p {
 }
 
 .branches_para p {
-  color: #212529;
+  color: #68653d;
   font-family: "Source Sans Pro", Sans-serif;
   font-size: 40px;
   font-weight: 800;
@@ -1433,7 +1433,7 @@ p {
 
 
 .branches_edge_para h2 {
-  color: #212529;
+  color: #68653d;
   font-family: "Source Sans Pro", Sans-serif;
   font-size: 35px;
   font-weight: 800;
@@ -1457,12 +1457,12 @@ p {
   padding: 0px;
   text-align: left;
   border-radius: 0px !important;
-  margin-left: 10%;
+  margin-left: 7%;
   margin-top: 5%;
 }
 
 .branches_card h2 {
-  color: #212529;
+  color: #68653d;
   font-family: "Source Sans Pro", Sans-serif;
   font-size: 35px;
   font-weight: 800;
@@ -1472,7 +1472,7 @@ p {
 
 #branches_head {
   margin-bottom: 15px;
-  color: #3D3D68;
+  color: #68653d;
   font-family: "Roboto", Sans-serif;
   font-weight: 800;
   text-transform: uppercase;
@@ -1480,11 +1480,81 @@ p {
 }
 
 #branches_card_para {
-  color: #212529;
+  color: #68653d;
   font-family: "Roboto", Sans-serif;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 1.2px;
 }
 
+.branches-box {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 60px;
+}
+
+.branches_services h1 {
+  color: #68653d;
+  font-family: "Roboto", Sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  text-transform: capitalize;
+  line-height: 1.2em;
+  letter-spacing: 1.8px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+
 /* ---------------Responsive Code---------------------- */
+
+/* Your existing CSS styles */
+/* ... */
+
+/* Hide the header elements by default for mobile and tablet views */
+.menu-toggle {
+  display: none;
+}
+
+/* Media query for tablet view */
+@media screen and (max-width: 991px) {
+  .header-element {
+    display: block;
+  }
+
+  .menu-toggle {
+    display: block;
+    /* Show the toggle button */
+  }
+}
+
+/* Media query for mobile view */
+@media screen and (max-width: 767px) {
+  .menu-toggle {
+    display: block;
+    float: right;
+  }
+
+  .header-element {
+    display: none;
+    /* Hide the header elements */
+  }
+
+  /* Show/hide the dropdown content when toggle button is clicked */
+  .header-element.active {
+    display: block;
+    margin-left: -33%;
+    margin-top: 10%;
+  }
+
+  #icons {
+    max-width: none;
+    float: none;
+  }
+
+  #logo-img {
+    width: 30%;
+  }
+}

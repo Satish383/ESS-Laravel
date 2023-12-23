@@ -42,7 +42,7 @@
 <div class="container mt-5">
     <div class="contact_map">
         <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117711.93310579678!2d86.09336895981494!3d22.78400724370678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f5e31989f0e2b5%3A0xeeec8e81ce9b344!2sJamshedpur%2C%20Jharkhand!5e0!3m2!1sen!2sin!4v1701326368031!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.620618002327!2d86.28437587508424!3d22.779456479344965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f6087aaaaaaaad%3A0xe99ca2faaea8bdd1!2sEXMAN%20SECURITY%20SERVICES%20PVT.%20LTD!5e0!3m2!1sen!2sin!4v1702968029177!5m2!1sen!2sin"
             width="1300" height="500" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>

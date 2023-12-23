@@ -22,7 +22,7 @@
                 <div class="container">
                     {{-- <h4><b>John Doe</b></h4>  --}}
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eos?</p><br>
-                    <a id="career_email" href="#">info@.com</a>
+                    <a id="career_email" href="#">info@essindia.in</a>
                 </div>
             </div>
             <div id="news_card" class="career_box">
@@ -32,7 +32,7 @@
                 <div class="container">
                     {{-- <h4><b>John Doe</b></h4>  --}}
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eos?</p><br>
-                    <a id="career_email" href="#">info@.com</a>
+                    <a id="career_email" href="#">info@essindia.in</a>
                 </div>
             </div>
             <div id="news_card" class="career_box">
@@ -42,7 +42,7 @@
                 <div class="container">
                     {{-- <h4><b>John Doe</b></h4>  --}}
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eos?</p><br>
-                    <a id="career_email" href="#">info@.com</a>
+                    <a id="career_email" href="#">info@essindia.in</a>
                 </div>
             </div>
         </div>

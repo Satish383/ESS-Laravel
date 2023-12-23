@@ -64,13 +64,17 @@
             <div class="element-third">
                 <div class="element-third-1">
                     <h4>OUR STORY</h4>
-                    <small>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, dolores, consequatur optio,
-                        ex</small>
+                    <small>We are one of the leading security service provider and have been engaged in providing
+                        security services in several small and large scale industries. We have huge manpower, expert and
+                        professional staff who are trained as per industrial requirements and we are renowned in
+                        providing these services throughout the nation.</small>
                 </div>
                 <div class="element-third-2">
                     <h4>OUR EXPERIENCE</h4>
-                    <small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore quisquam facilis
-                        qui</small>
+                    <small>Established in the year 2005, have been gaining wide expertise throughout the nation. We are
+                        committed towards quality and reliability of our wide array of security service. We offer
+                        services from personal security to industrial securities with complete satisfaction. We maintain
+                        our clientele, we have national expansion of our company in various states.</small>
                 </div>
             </div>
         </div>
@@ -79,7 +83,7 @@
 
 <div class="skill-container ">
     <div class="skill-element">
-        <div class="wow animate__animated animate__fadeInLeft">
+        <div style=" animation-duration: 2s;" class="wow animate__animated animate__fadeInLeft">
             <h4>We have Awesome Skills</h4>
             <p>WeGuard has over 10 years of experience as a security company</p>
             <small>Lorem ipsum dolor sit amet consectetur adipisicing elit sed dol eiusmod tempor incididunt dolor magna
@@ -87,7 +91,7 @@
             <small>Dolore eu fugiat nulla pariatur enimadm nostrud exercitation ullamco laboris nisi ut aliqua veniam
                 quis nostrud exercitation</small>
         </div>
-        <div class="skill-rating wow animate__animated animate__fadeInRight">
+        <div class="skill-rating wow animate__animated animate__fadeInRight" style=" animation-duration: 2s;">
             <div class="skill-content">
                 <div class="rating-90">
                     <h6>90%</h6>
@@ -114,8 +118,8 @@
 </div>
 
 <div id="edge-content" class="container-fluid mt-5 bg-client">
-    <div class="edge-head wow animate__animated animate__zoomIn">OUR EDGE</div>
-    <div class="edge-container wow animate__animated animate__fadeInDown">
+    <div class="edge-head wow animate__animated animate__zoomIn" style=" animation-duration: 2s;">OUR EDGE</div>
+    <div class="edge-container wow animate__animated animate__fadeInDown" style=" animation-duration: 2s;">
         <div class="card">
             <div class="icon">
                 <img src="{{ asset('assets/image/trophy.png') }}" alt="" class="w-100">
@@ -144,6 +148,13 @@
             <h3>440+</h3>
             <p>HAPPY EMPLOYEES</p>
         </div>
+        <div class="card">
+            <div class="icon">
+                <img src="{{ asset('assets/image/target.png') }}" alt="" class="w-100">
+            </div>
+            <h3>440+</h3>
+            <p>SURVEILLANCE CAMERAS INSTALLED</p>
+        </div>
     </div>
 </div>
 
@@ -151,10 +162,10 @@
 
 <div class="container mt-5">
     <div class="team-element">
-        <div class="team-heading wow animate__animated animate__fadeInTopLeft">
+        <div class="team-heading wow animate__animated animate__fadeInTopLeft" style=" animation-duration: 2s;">
             <h5>Meet our expert Team</h5>
         </div>
-        <div class="team-pic wow animate__animated animate__zoomIn">
+        <div class="team-pic wow animate__animated animate__zoomIn" style=" animation-duration: 2s;">
             <div class="team-card">
                 <div class="team-1">
                     <img src="{{ asset('assets/image/security-1.jpeg') }}" alt="" class="w-100 h-100">
@@ -240,8 +251,9 @@
 </div>
 
 <div id="business-content" class="container-fluid mt-5 bg-client">
-    <div class="business-head wow animate__animated animate__zoomIn">OUR BUSINESSES</div>
-    <div class="busineess-container wow animate__animated animate__fadeInUp">
+    <div class="business-head wow animate__animated animate__zoomIn" style=" animation-duration: 2s;">OUR BUSINESSES
+    </div>
+    <div class="busineess-container wow animate__animated animate__fadeInUp" style=" animation-duration: 2s;">
         <a href="#">
             <div class="business-element">
                 <div class="business-logo">
@@ -337,7 +349,7 @@
 
 
 <div id="client-section" class="bg-client">
-    <div class="client-head wow animate__animated animate__zoomIn" style="color: white">
+    <div class="client-head wow animate__animated animate__zoomIn" style="color: white; animation-duration: 2s;">
         Your Trusted Choice
     </div>
     <div id="client-container" id="demo" class="carousel slide" data-bs-ride="carousel">
